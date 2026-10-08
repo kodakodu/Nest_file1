@@ -1,11 +1,11 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller.js';
 import { AppService } from './app.service.js';
-import { CsvModuleModule } from './csv/csv-module.module.js';
+import { CsvModule} from './csv/csv.module.js';
 
 
 @Module({
-  imports: [CsvModuleModule],
+  imports: [CsvModule],
   controllers: [AppController, ],
   providers: [AppService, ],
 })
