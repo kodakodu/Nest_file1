@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { CsvControllerController } from './csv.controller.controller.js';
+import { CsvControllerController } from './csv-controller.controller.js';
 
 describe('CsvControllerController', () => {
   let controller: CsvControllerController;
